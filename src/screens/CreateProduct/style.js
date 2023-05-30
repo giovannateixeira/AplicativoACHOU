@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         width: "100%"
     },
 
-    textBtn: {
+    TextBtn: {
         color: "#FFF",
         fontSize: 24,
         textAlign: "center"
