@@ -1,14 +1,35 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from "react-native";
+
 
 const styles = StyleSheet.create({
-    container: {
+    container:{
         padding: 20,
         flex: 1,
         alignContent: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
 
-    btnCreate: {
+    produto:{
+        backgroundColor: "#FFF",
+        padding: 10,
+        marginBottom: 20,
+        borderRadius: 10,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+
+    descricao: {
+        fontSize: 20,
+        fontWeight: 'bold'
+    },
+
+    valor:{
+        fontSize: 18,
+        color: "#F60"
+    },
+
+    btnCreate:{
         backgroundColor: '#F60',
         width: 60,
         height: 60,
@@ -17,14 +38,18 @@ const styles = StyleSheet.create({
         bottom: 20,
         right: 20,
         justifyContent: 'center',
-        alignContent: 'center'
+        alignContent: 'center',
     },
 
-    btnTextCreate: {
+    btnTextCreate:{
         fontSize: 24,
         textAlign: 'center',
-        color: '#FFF'
-    }
+        color: '#FFF',
+    },
+
+    
+
+
 });
 
 export default styles
